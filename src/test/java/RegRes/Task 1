@@ -1,0 +1,16 @@
+Task 1: What would you say were the causes of a code quality or deployment rollback you have
+experienced in production? (Your answer should not be more than 70 words).
+
+Answer;
+I can give an example for code quality or rollback deployment experience.
+In a project we used SOLID principles to write code quality and clean code.
+We can express it as S - Single-responsiblity Principle, O - Open-closed Principle,
+L - Liskov Substitution Principle, I - Interface Segregation Principle and
+D - Dependency Inversion Principle. I guess I don't need to explain separately.
+In addition, the understanding of Object Oriented Programming (OOP)
+can be expressed as principles that determine code quality.
+For Rollyback, I used Git stash. Because, It's important to note that rolling back
+the deployment will not revert the files in your repository.
+The next time you deploy, all the changes that
+you rolled back will be again uploaded to your remote server.
+So it is important that you revert or fix the offending changes in your repository as well.
